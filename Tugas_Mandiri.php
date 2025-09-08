@@ -105,7 +105,7 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST' && isset($_POST['update'])) {
 <html lang="id">
 <head>
     <meta charset="UTF-8">
-    <title>Perpustakaan Rico</title>
+    <title>Tugas Mandiri</title>
     <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;600&family=Poppins:wght@300;500&display=swap" rel="stylesheet">
     <style>
         body {
@@ -244,7 +244,7 @@ input:focus {
 </head>
 <body>
     <div class="container">
-        <h1>Perpustakaan Rico</h1>
+        <h1>OOP-Tugas Mandiri</h1>
 
         <?php if($alert) echo $alert; ?>
 
